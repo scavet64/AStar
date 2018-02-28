@@ -5,25 +5,25 @@ import java.util.Arrays;
 
 public class Board
 {
-    private BoardElement[] boardArray;
+    private Integer[] boardArray;
 
-    public Board(BoardElement[] boardArray)
+    public Board(Integer[] boardArray)
     {
         this.boardArray = boardArray;
     }
 
     public void swapElements(int elem1, int elem2)
     {
-        BoardElement temp = boardArray[elem1];
+        Integer temp = boardArray[elem1];
         boardArray[elem1] = boardArray[elem2];
         boardArray[elem2] = temp;
     }
 
-    public BoardElement[] getBoardArray() {
+    public Integer[] getBoardArray() {
         return boardArray;
     }
 
-    public void setBoardArray(BoardElement[] boardArray) {
+    public void setBoardArray(Integer[] boardArray) {
         this.boardArray = boardArray;
     }
 
@@ -33,7 +33,7 @@ public class Board
             int tmp = i;
             //check one to left
             if(tmp - 1 >= 0){
-                if(boardArray[tmp - 1] == BoardElement.Empty){
+                if(boardArray[tmp - 1] == BoardElementInt.EMPTY){
                     // valid move
                     moves.add(new Move(Direction.Left, 1, i));
                 }
@@ -41,7 +41,7 @@ public class Board
 
             //check one to right
             if(tmp + 1 < boardArray.length){
-                if(boardArray[tmp + 1] == BoardElement.Empty){
+                if(boardArray[tmp + 1] == BoardElementInt.EMPTY){
                     // valid move
                     moves.add(new Move(Direction.Right, 1, i));
                 }
@@ -49,7 +49,7 @@ public class Board
 
             //check two to left
             if(tmp - 2 >= 0){
-                if(boardArray[tmp - 2] == BoardElement.Empty){
+                if(boardArray[tmp - 2] == BoardElementInt.EMPTY){
                     // valid move
                     moves.add(new Move(Direction.Left, 2, i));
                 }
@@ -57,7 +57,7 @@ public class Board
 
             //check two to right
             if(tmp + 2 < boardArray.length){
-                if(boardArray[tmp + 2] == BoardElement.Empty){
+                if(boardArray[tmp + 2] == BoardElementInt.EMPTY){
                     // valid move
                     moves.add(new Move(Direction.Right, 2, i));
                 }
@@ -68,7 +68,7 @@ public class Board
     }
 
     public Board executeMove(Move moveToDo){
-        BoardElement[] boardArrayClone = new BoardElement[boardArray.length];
+        Integer[] boardArrayClone = new Integer[boardArray.length];
         for(int i = 0; i < boardArray.length; i++){
             boardArrayClone[i] = boardArray[i];
         }
@@ -94,7 +94,7 @@ public class Board
     public String toString()
     {
         String tmp = "| ";
-        for(BoardElement b: boardArray)
+        for(Integer b: boardArray)
         {
             tmp += b.toString() + " | ";
         }
@@ -104,7 +104,14 @@ public class Board
     @Override
     public boolean equals(Object other) {
         if (other instanceof Board) {
-            return Arrays.deepEquals(this.getBoardArray(), ((Board) other).getBoardArray());
+            Integer[] otherArray = ((Board) other).getBoardArray();
+
+            for(int i = 0; i < otherArray.length; i++){
+                if(otherArray[i] != this.boardArray[i]){
+                    return false;
+                }
+            }
+            return true;
         }
         return false;
     }

@@ -6,6 +6,7 @@ public class AStarState implements Comparable<AStarState>{
     private int distanceToHere;
     private AStarState previous;
     private Move moveThatGotHere;
+    private int hValue;
 
 
     public AStarState(AStarState previous, Board board, Move move)
@@ -16,6 +17,7 @@ public class AStarState implements Comparable<AStarState>{
             this.previous = previous;
             this.distanceToHere = previous.getDistanceToHere() + move.getNumJumps();
             this.moveThatGotHere = move;
+            hValue = getWeight();
         }
         else
         {
@@ -37,32 +39,17 @@ public class AStarState implements Comparable<AStarState>{
         return board;
     }
 
-    public void setBoard(Board board) {
-        this.board = board;
-    }
-
     public int getDistanceToHere() {
         return distanceToHere;
     }
 
-    public void setDistanceToHere(int distanceToHere) {
-        this.distanceToHere = distanceToHere;
-    }
 
     public AStarState getPrevious() {
         return previous;
     }
 
-    public void setPrevious(AStarState previous) {
-        this.previous = previous;
-    }
-
-    public Move getDirectionThatToHere() {
+    public Move getMoveThatGotHere() {
         return moveThatGotHere;
-    }
-
-    public void setDirectionThatToHere(Move moveThatGotHere) {
-        this.moveThatGotHere = moveThatGotHere;
     }
 
     @Override

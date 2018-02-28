@@ -1,18 +1,20 @@
 package com.scavetta.project1;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
 	    //create starting board
-        BoardElement[] startingBoardArray =
+        Integer[] startingBoardArray =
                 {
-                        BoardElement.Black,
-                        BoardElement.Black,
-                        BoardElement.Black,
-                        BoardElement.Empty,
-                        BoardElement.White,
-                        BoardElement.White,
-                        BoardElement.White
+                        BoardElementInt.BLACK,
+                        BoardElementInt.BLACK,
+                        BoardElementInt.BLACK,
+                        BoardElementInt.EMPTY,
+                        BoardElementInt.WHITE,
+                        BoardElementInt.WHITE,
+                        BoardElementInt.WHITE
                 };
 
         Board board = new Board(startingBoardArray);
