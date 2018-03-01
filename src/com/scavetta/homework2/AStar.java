@@ -11,7 +11,9 @@ public class AStar {
         finished = new HashSet<>();
         AStarState initial = new AStarState(null, initialBoard, null);
         frontier.add(initial);
+        System.out.println("Starting Board:");
         System.out.println(initial.getBoard());
+        System.out.println("---------------------------");
     }
 
     /**
@@ -41,7 +43,14 @@ public class AStar {
 
                     while (!(winningMoves.isEmpty())) {
                         AStarState popped = winningMoves.pop();
-                        System.out.println(popped.getMoveThatGotHere().getDirection() + ", " + popped.getMoveThatGotHere().getNumJumps());
+                        System.out.println(
+                                "Move index: "
+                                        + popped.getMoveThatGotHere().getIndexOfMover()
+                                        + ", "
+                                        + popped.getMoveThatGotHere().getDirection()
+                                        + " "
+                                        + popped.getMoveThatGotHere().getNumJumps()
+                                        + " places");
                         System.out.println(popped.getBoard());
                     }
 
