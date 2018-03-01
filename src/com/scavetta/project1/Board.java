@@ -1,7 +1,6 @@
 package com.scavetta.project1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Board
 {
@@ -23,10 +22,10 @@ public class Board
         return boardArray;
     }
 
-    public void setBoardArray(Integer[] boardArray) {
-        this.boardArray = boardArray;
-    }
 
+    /**
+     * @return Returns a list of possible moves for this board.
+     */
     public ArrayList<Move> getAllPossibleMoves(){
         ArrayList<Move> moves = new ArrayList<>();
         for (int i = 0; i < boardArray.length; i++) {
@@ -62,11 +61,15 @@ public class Board
                     moves.add(new Move(Direction.Right, 2, i));
                 }
             }
-
         }
         return moves;
     }
 
+    /**
+     * Executes a move on a clone of this board.
+     * @param moveToDo the move that this method will execute
+     * @return deepclone of the current board with the move executed
+     */
     public Board executeMove(Move moveToDo){
         Integer[] boardArrayClone = new Integer[boardArray.length];
         for(int i = 0; i < boardArray.length; i++){
@@ -75,7 +78,6 @@ public class Board
         Board newBoard = new Board(boardArrayClone);
 
         int destinationIndex = 0;
-
         if(moveToDo.getDirection() == Direction.Left){
             destinationIndex = moveToDo.getIndexOfMover() - moveToDo.getNumJumps();
         } else {
@@ -85,7 +87,11 @@ public class Board
         return newBoard;
     }
 
-    public boolean isWon(){
+    /**
+     * Uses the heuristic function to determine if this is a goal state
+     * @return true if this board is in a goal state
+     */
+    public boolean isGoal(){
         return (HeuristicFunctions.function2(this) == 0);
     }
 

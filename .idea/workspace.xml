@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70441736-1f56-4e24-8360-6631333bff6d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/AStar.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/AStar.java" />
       <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java" />
       <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/Board.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/Board.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java" />
       <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java" />
       <change beforePath="$PROJECT_DIR$/src/com/scavetta/project1/Main.java" afterPath="$PROJECT_DIR$/src/com/scavetta/project1/Main.java" />
     </list>
@@ -28,44 +27,42 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="357">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AStarState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AStarState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AStar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AStar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/AStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="51" column="128" lean-forward="false" selection-start-line="51" selection-start-column="128" selection-end-line="51" selection-end-column="128" />
-              <folding>
-                <element signature="e#817#829#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-34">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,18 +93,15 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="111" column="17" lean-forward="true" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#2573#2574#0" expanded="true" />
-                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
+                <element signature="e#2930#2931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +110,8 @@
       <file leaf-file-name="BoardElementInt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -127,17 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -146,8 +130,8 @@
       <file leaf-file-name="HeuristicFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -188,12 +172,12 @@
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/Direction.java" />
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/Move.java" />
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java" />
-        <option value="$PROJECT_DIR$/src/com/scavetta/project1/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java" />
+        <option value="$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java" />
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java" />
+        <option value="$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java" />
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/Board.java" />
         <option value="$PROJECT_DIR$/src/com/scavetta/project1/AStar.java" />
-        <option value="$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java" />
+        <option value="$PROJECT_DIR$/src/com/scavetta/project1/Main.java" />
       </list>
     </option>
   </component>
@@ -314,7 +298,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1410" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1020" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -325,12 +310,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33958104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15773809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -353,7 +338,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/scavetta/project1/AStar.java</url>
-          <line>44</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -363,18 +348,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java">
+    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -382,34 +380,24 @@
     <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElementInt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/BoardElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/HeuristicFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="17" lean-forward="true" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#2573#2574#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -434,42 +422,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2930#2931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/AStar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="51" column="128" lean-forward="false" selection-start-line="51" selection-start-column="128" selection-end-line="51" selection-end-column="128" />
-          <folding>
-            <element signature="e#817#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/scavetta/project1/AStarState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-34">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

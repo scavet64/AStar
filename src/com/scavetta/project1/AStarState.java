@@ -6,9 +6,14 @@ public class AStarState implements Comparable<AStarState>{
     private int distanceToHere;
     private AStarState previous;
     private Move moveThatGotHere;
-    private int hValue;
 
 
+    /**
+     * Constructor for the AStarState class. This class is what represents a state in this A* implementation
+     * @param previous Previous AStarState
+     * @param board the board that this state represents
+     * @param move the move that got us here
+     */
     public AStarState(AStarState previous, Board board, Move move)
     {
         this.board = board;
@@ -17,7 +22,6 @@ public class AStarState implements Comparable<AStarState>{
             this.previous = previous;
             this.distanceToHere = previous.getDistanceToHere() + move.getNumJumps();
             this.moveThatGotHere = move;
-            hValue = getWeight();
         }
         else
         {

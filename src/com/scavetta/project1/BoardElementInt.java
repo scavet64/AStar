@@ -1,5 +1,8 @@
 package com.scavetta.project1;
 
+/**
+ * Class that holds integer representations for each board element.
+ */
 public class BoardElementInt {
     public static final Integer WHITE = 1;
     public static final Integer BLACK = 2;

@@ -13,6 +13,14 @@ public class HeuristicFunctions
             BoardElementInt.BLACK,
     };
 
+    /**
+     * Heuristic function that returns a value for  the passed in board.
+     * This will compare the current board's state with the ideal board state.
+     * any board element is not in an ideal configuration, the h value is incremented.
+     *
+     * @param board board to evaluate
+     * @return h value for this board
+     */
     public static int function2(Board board)
     {
         Integer[] boardArray = board.getBoardArray();
@@ -29,6 +37,11 @@ public class HeuristicFunctions
         return value;
     }
 
+    /**
+     * The example heuristic that was provided on the homework assignment.
+     * @param board board to evaluate
+     * @return h value for this board
+     */
     public static int suggestedH(Board board)
     {
         Integer[] boardArray = board.getBoardArray();

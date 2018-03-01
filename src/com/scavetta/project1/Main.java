@@ -19,5 +19,6 @@ public class Main {
 
         Board board = new Board(startingBoardArray);
         AStar aStar = new AStar(board);
+        aStar.run();
     }
 }
