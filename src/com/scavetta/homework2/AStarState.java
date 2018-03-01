@@ -1,4 +1,4 @@
-package com.scavetta.project1;
+package com.scavetta.homework2;
 
 public class AStarState implements Comparable<AStarState>{
 

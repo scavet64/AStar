@@ -1,4 +1,4 @@
-package com.scavetta.project1;
+package com.scavetta.homework2;
 
 /**
  * Class that holds integer representations for each board element.

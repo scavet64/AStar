@@ -1,4 +1,4 @@
-package com.scavetta.project1;
+package com.scavetta.homework2;
 
 import java.util.*;
 
